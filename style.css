@@ -3,11 +3,20 @@ body {
     margin: 50px;
 }
 
+nav {
+    top: 40%;
+    left: 50%;
+}
+
 #navbar {
-    padding: 15px;
-    background-color: #282681;
+    position: absolute;
     width: 248px;
-    border-radius: 30px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 50%;
+    background-color: #282681
 }
 
 #navbar a {
