@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="Stylesheet" href="style.css">
-    <script href="script.js" defer></script>
+    <script href="email.js" defer></script>
     <title>Document</title>
 </head>
 <body>
@@ -25,12 +25,12 @@
     <p>jackson.shelley919@gmail.com</p>
 
 <h2>Have a question or message?</h2>
-    <form>
+    <form name="contact" data-netlify="true">
         <input type="text" id="first" placeholder="First name" required>
         <input type="text" id="last" placeholder="Last name" required>
         <input type="email" id="email" placeholder="Email" required>
         <textarea id="message" placeholder="message" required></textarea>
-        <button id="send" type="submit">Send</button>
+        <button id="send" value="submit" type="submit">Send</button>
     </form>
 </body>
 </html>
