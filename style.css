@@ -67,6 +67,11 @@ p {
     color: white;
 }
 
+#Github {
+    text-decoration: none;
+    color: white;
+}
+
 form {
     background-color:#180e4b;
     max-width: 550px;
