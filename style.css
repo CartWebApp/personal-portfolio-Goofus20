@@ -101,13 +101,23 @@ li {
 }
 
 #My-resume {
-    position: absolute;
+    position: relative;
+    margin: auto;
     padding: 20px;
     background-color:#21206b;
     font-size: clamp(8px, 100%, 16px);
     width: clamp(100px, 50%, 900px); 
     gap: 15px;
-    margin: 50px;
+
+}
+
+#section1 {
+    position: absolute;
+    right: 50px;
+    width: 500px;
+    top: 50px;
+    font-size: clamp(8px, 100%, 16px);
+    width: clamp(100px, 50%, 500px); 
 }
 
 #download {
