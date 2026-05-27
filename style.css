@@ -181,22 +181,27 @@ li {
     0% {
         background-image: url(budget.png);
     }
-    33% {
+    33.3% {
         background-image: url(lego.png);
     }
-    66% {
+    66.6% {
         background-image: url(list.png)
     }
     100% {
         background-image: url(budget.png);
     }
+
 }
 
 .cycle {
-    width: 900;
-    height: 450;
-    background-image: url(budget.png);
+    width: 900px;
+    height: 450px;
     animation-name: cycles;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
+    background-size: cover;
+}
+
+.projects {
+    scroll-behavior: smooth;
 }
