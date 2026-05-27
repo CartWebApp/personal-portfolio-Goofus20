@@ -176,3 +176,27 @@ li {
     animation-name:subtitle-move;
     animation-duration:6s;
 }
+
+@keyframes cycles {
+    0% {
+        background-image: url(budget.png);
+    }
+    33% {
+        background-image: url(lego.png);
+    }
+    66% {
+        background-image: url(list.png)
+    }
+    100% {
+        background-image: url(budget.png);
+    }
+}
+
+.cycle {
+    width: 900;
+    height: 450;
+    background-image: url(budget.png);
+    animation-name: cycles;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
