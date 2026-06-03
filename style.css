@@ -215,5 +215,5 @@ li {
 .projects img {
     animation-name: project-animations;
     animation-duration: 5s;
-    animation-timeline: scroll();
+    /* animation-timeline: scroll(); */
 }
