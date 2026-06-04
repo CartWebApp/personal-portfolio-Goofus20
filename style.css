@@ -202,18 +202,62 @@ li {
     background-size: cover;
 }
 
-@keyframes project-animations {
+@keyframes project-animations1 {
     0% {
         opacity: 0;
     }
 
-    100% {
+    25% {
         opacity: 1;
     }
 }
 
-.projects img {
-    animation-name: project-animations;
+@keyframes project-animations2 {
+    25% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes project-animations3 {
+    50% {
+        opacity: 0;
+    }
+
+    75% {
+        opacity: 1;
+    }
+}
+
+
+#lego {
+    animation-name: project-animations1;
+    animation-timeline: scroll();
+}
+
+#budget {
+    animation-name: project-animations2;
+    animation-timeline: scroll();
+}
+
+#list {
+    animation-name: project-animations3;
+    animation-timeline: scroll();
+}
+
+@keyframes reviews {
+    0% {
+        transform: translateX(-1000px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+#review {
+    animation-name: reviews;
     animation-duration: 5s;
-    /* animation-timeline: scroll(); */
 }
